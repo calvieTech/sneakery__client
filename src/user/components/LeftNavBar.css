@@ -1,0 +1,32 @@
+.leftNavBar__container {
+	/* width: 256px; */
+	padding: 8px;
+	background-color: red;
+	height: calc(100vh - 8px);
+	border: 4px solid green;
+	display: flex;
+	flex-direction: column;
+}
+
+.leftNavBar__container > .leftNavBar__link {
+	list-style: none;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 20px;
+	text-align: center;
+	display: inherit;
+	justify-content: center;
+	align-content: center;
+	color: #003653;
+}
+
+@media (min-width: 768px) {
+	.leftNavBar__container {
+		width: 256px;
+		padding: 4px;
+		background-color: red;
+		margin: 8px 8px;
+		height: calc(100vh - 68px);
+		border: 4px solid green;
+	}
+}

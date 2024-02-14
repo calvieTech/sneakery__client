@@ -1,0 +1,15 @@
+/*
+* CuriousBlue: #2B95CD
+* DairyCream: #FAD8B9
+* Black: #040404
+* TobbacoBrown: #6B5949
+* MainNavigation: #b42bcd
+*/
+
+.logo-container > .logo {
+	display: block;
+	margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+}
